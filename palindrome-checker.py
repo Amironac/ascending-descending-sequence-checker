@@ -23,8 +23,13 @@ print(appendList(list()))
 # But what if we have an unsorted list ?
 # For example , let say :
 
-array = [2,7,4,8,9,3,1,6]
+array = []
 
+for i in range(10):
+    integer = random.randint(0,10);
+    array.append(integer)
+
+    
 # We know this is never going to be true . Lets use sort method.
 
 array.sort()
