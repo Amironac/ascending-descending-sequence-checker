@@ -1,6 +1,6 @@
 import random
 
-# So here is example how you can have a palindrome sekvence in your list.
+# So here is example how you can have a ascending or descending sekvence in your list.
 
 def appendList(arr):
     for i in range(10):
