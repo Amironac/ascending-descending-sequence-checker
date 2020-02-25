@@ -6,14 +6,14 @@ def appendList(arr):
     for i in range(10):
         arr.append(i)
 
-    palindrome = False
+    sequence = False
 
     for i in range(0,len(arr)-1):
         if arr[i]-1 < arr[i]:
-            palindrome = True
+            sequence = True
 
     print(arr)
-    return palindrome
+    return sequence
 
 
 print(appendList(list()))
@@ -33,6 +33,9 @@ for i in range(10):
 # We know this is never going to be true . Lets use sort method.
 
 array.sort()
+
+#Basicly what we did in previous function is checked if function is sorted. 
+
 
 # We could use variables to sort our list manually , you can try it for practice.
 
